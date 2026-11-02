@@ -1,0 +1,91 @@
+{
+  "best_model": "SVM (RBF)",
+  "results": {
+    "Logistic Regression": {
+      "cv_accuracy": 0.9407,
+      "test_accuracy": 0.8947,
+      "precision": 0.9545,
+      "recall": 0.875,
+      "f1": 0.913,
+      "roc_auc": 0.9805,
+      "confusion_matrix": [
+        [
+          39,
+          3
+        ],
+        [
+          9,
+          63
+        ]
+      ]
+    },
+    "SVM (RBF)": {
+      "cv_accuracy": 0.9429,
+      "test_accuracy": 0.9211,
+      "precision": 0.9565,
+      "recall": 0.9167,
+      "f1": 0.9362,
+      "roc_auc": 0.9805,
+      "confusion_matrix": [
+        [
+          39,
+          3
+        ],
+        [
+          6,
+          66
+        ]
+      ]
+    },
+    "Random Forest": {
+      "cv_accuracy": 0.9231,
+      "test_accuracy": 0.9474,
+      "precision": 0.9714,
+      "recall": 0.9444,
+      "f1": 0.9577,
+      "roc_auc": 0.9904,
+      "confusion_matrix": [
+        [
+          40,
+          2
+        ],
+        [
+          4,
+          68
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "cv_accuracy": 0.9341,
+      "test_accuracy": 0.9298,
+      "precision": 0.9571,
+      "recall": 0.9306,
+      "f1": 0.9437,
+      "roc_auc": 0.9838,
+      "confusion_matrix": [
+        [
+          39,
+          3
+        ],
+        [
+          5,
+          67
+        ]
+      ]
+    }
+  },
+  "feature_importance": {
+    "mean radius": 0.0066,
+    "mean texture": 0.0386,
+    "mean perimeter": 0.0048,
+    "mean area": 0.0171,
+    "mean smoothness": 0.0136,
+    "mean compactness": -0.0132,
+    "mean concavity": 0.0149,
+    "mean concave points": 0.0373,
+    "mean symmetry": -0.0136,
+    "mean fractal dimension": -0.007
+  },
+  "n_samples": 569,
+  "n_features": 10
+}
